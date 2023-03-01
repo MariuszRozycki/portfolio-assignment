@@ -1,0 +1,22 @@
+/* global */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section,
+main,
+footer {
+  margin: 50px auto;
+}
