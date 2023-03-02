@@ -1,0 +1,23 @@
+.about-me .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-me h2 {
+  text-align: center;
+}
+
+.about-me_wrapper {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  gap: 10px;
+}
+
+.about-me_wrapper .img-wrapper {
+  width: 100%;
+}
+
+.about-me_wrapper p {
+  font-size: calc(var(--normal-font-size) + 1vw);
+}

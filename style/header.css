@@ -1,0 +1,28 @@
+/* .logo */
+.logo {
+  margin: 0;
+  background-color: var(--color-no9);
+  color: var(--color-no7);
+}
+
+.logo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+  gap: 5px;
+}
+
+.logo p,
+.logo h1 {
+  font-size: calc(var(--normal-font-size) + 1vw);
+}
+
+.logo span {
+  display: block;
+}
+
+.logo h1 {
+  text-align: center;
+}

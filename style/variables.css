@@ -10,14 +10,15 @@ font-family: 'Source Sans Pro', sans-serif;
 
 :root {
   /* colors */
-  --orange-color: #ff5722;
-  --yellow-color: #ffa210;
-  --active-color: #ffaf31;
-  --light-blue-color: #334B84;
-  --dark-blue-color: #243662;
-  --very-dark-blue-color: #121D38;
-  --white-color: #fff;
-  --white-second-color: #eaeaea;
+  --color-no1: #ff5722;
+  --color-no2: #ffa210;
+  --color-no3: #ffaf31;
+  --color-no4: #334B84;
+  --color-no5: #243662;
+  --color-no6: #121D38;
+  --color-no7: #fff;
+  --color-no8: #eaeaea;
+  --color-no9: #000;
 
   /* font-size standard*/
   --normal-font-size: 1rem;
@@ -38,6 +39,12 @@ font-family: 'Source Sans Pro', sans-serif;
   --text-shadow: 2px 2px 5px #000;
   --prefix-text-shadow: 4px 5px 4px #000;
 
-  /* screen-breakpoints */
-  --first-break-point: 469px;
+  /* display: flex */
+  --display-flex: flex;
+
+  /* display: grid */
+  --display-grid: grid;
+
+  /* padding: hamburger-menu + nav-main_list */
+  --padding-hamburger-menu: 10px 5px;
 }
