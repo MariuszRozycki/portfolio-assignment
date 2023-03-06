@@ -5,8 +5,6 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: var(--color-no9);
-  /* padding: var(--padding-hamburger-menu); */
 }
 
 .nav-main .container {

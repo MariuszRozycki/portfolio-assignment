@@ -1,7 +1,6 @@
 /* .logo */
 .logo {
   margin: 0;
-  background-color: var(--color-no9);
   color: var(--color-no7);
 }
 
@@ -16,11 +15,8 @@
 
 .logo p,
 .logo h1 {
-  font-size: calc(var(--normal-font-size) + 1vw);
-}
-
-.logo span {
-  display: block;
+  font-size: calc(var(--normal-font-size) + 3vw);
+  text-shadow: var(--text-shadow-light);
 }
 
 .logo h1 {

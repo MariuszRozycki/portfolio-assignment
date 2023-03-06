@@ -17,8 +17,9 @@ font-family: 'Source Sans Pro', sans-serif;
   --color-no5: #243662;
   --color-no6: #121D38;
   --color-no7: #fff;
-  --color-no8: #eaeaea;
+  --color-no8: #4a4949;
   --color-no9: #000;
+  --color-no10: #17daa3;
 
   /* font-size standard*/
   --normal-font-size: 1rem;
@@ -36,7 +37,8 @@ font-family: 'Source Sans Pro', sans-serif;
   --box-shadow-light: 0px 0px 10px 1px #000;
 
   /* text-shadow */
-  --text-shadow: 2px 2px 5px #000;
+  --text-shadow-dark: 2px 2px 5px var(--color-no9);
+  --text-shadow-light: 2px 2px 5px var(--color-no7);
   --prefix-text-shadow: 4px 5px 4px #000;
 
   /* display: flex */

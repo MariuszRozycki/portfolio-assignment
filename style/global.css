@@ -1,4 +1,8 @@
 /* global */
+:root {
+  position: relative;
+  min-height: 100vh;
+}
 
 * {
   box-sizing: border-box;
@@ -32,6 +36,7 @@ h2,
 h3,
 h4 {
   font-family: 'Lato', 'Roboto', sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -39,22 +44,35 @@ h1 {
 }
 
 h2 {
-  font-size: var(calc(--medium-font-size) - 5px);
+  font-size: calc(var(--medium-font-size) - 5px);
 }
 
 h3,
 h4 {
-  font-size: var(calc(--medium-font-size) - 8px);
+  font-size: calc(var(--medium-font-size) - 8px);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1 span,
+h2 span {
+  display: block;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-no9);
+  color: var(--color-no7);
 }
 
 a,
 p {
-  font-size: var(--normal-font-size);
+  font-size: calc(var(--normal-font-size) + 1vw);
+  line-height: 150%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -63,4 +81,30 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.logo {
+  background-color: var(--color-no9);
+}
+
+.nav-main,
+.about-me,
+.my-projects {
+  background-color: var(--color-no9);
+  margin-top: 20px;
+}
+
+.btn {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  background-color: var(--color-no3);
+  color: var(--color-no8);
+  height: 50px;
+  text-transform: uppercase;
+  font-size: calc(var(--normal-font-size) + 4px);
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
+  border: 2px solid var(--color-no3);
+  border-radius: var(--middle-radius);
+  box-shadow: var(--box-shadow-light);
 }

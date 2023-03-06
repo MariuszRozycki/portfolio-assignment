@@ -5,7 +5,7 @@
 }
 
 .about-me h2 {
-  text-align: center;
+  font-size: calc(var(--medium-font-size) + .7vw);
 }
 
 .about-me_wrapper {
@@ -18,6 +18,6 @@
   width: 100%;
 }
 
-.about-me_wrapper p {
+/* .about-me_wrapper p {
   font-size: calc(var(--normal-font-size) + 1vw);
-}
+} */

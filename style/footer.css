@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  background-color: var(--color-no9);
+  position: absolute;
+  top: 100%;
+}
+
+.nav-footer {
+  text-align: center;
+}
+
+.footer li,
+.footer li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--color-no7);
+  font-size: calc(var(--normal-font-size) + 2px);
+  ;
+}

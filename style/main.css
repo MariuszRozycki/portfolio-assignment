@@ -1,0 +1,57 @@
+.my-projects h3 {
+  text-shadow: var(--text-shadow-light);
+}
+
+.my-projects .container {
+  display: grid;
+  grid-template-rows: 80px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-projects_cards {
+  display: grid;
+  row-gap: 30px;
+}
+
+.card {
+  background-color: var(--color-no8);
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  grid-template-rows: 80px 250px repeat(3, auto) 80px;
+  row-gap: 20px;
+  border-radius: var(--middle-radius);
+}
+
+.card h4 {
+  align-self: center;
+  text-shadow: var(--text-shadow-dark);
+}
+
+.my-projects_img-wrapper img {
+  border-radius: var(--middle-radius);
+  box-shadow: var(--box-shadow-light);
+}
+
+.card a {
+  position: relative;
+  font-size: calc(var(--normal-font-size) + 1.7vw);
+  color: var(--color-no3);
+  text-shadow: var(--text-shadow-dark);
+}
+
+.card a::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  display: block;
+  content: "";
+  background-color: var(--color-no3);
+}
+
+.btn-card {
+  max-width: 300px;
+}
