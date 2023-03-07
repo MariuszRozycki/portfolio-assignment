@@ -15,7 +15,7 @@ font-family: 'Source Sans Pro', sans-serif;
   --color-no3: #ffaf31;
   --color-no4: #334B84;
   --color-no5: #243662;
-  --color-no6: #121D38;
+  --color-no6: rgb(18, 29, 56);
   --color-no7: #fff;
   --color-no8: #4a4949;
   --color-no9: #000;
@@ -34,7 +34,9 @@ font-family: 'Source Sans Pro', sans-serif;
 
   /* box-shadow */
   --box-shadow: 0px 0px 40px 5px #000;
+  --box-shadow-white: 0px 0px 40px 5px var(--color-no7);
   --box-shadow-light: 0px 0px 10px 1px #000;
+  --box-shadow-light-white: 0px 0px 10px 1px var(--color-no7);
 
   /* text-shadow */
   --text-shadow-dark: 2px 2px 5px var(--color-no9);
@@ -49,4 +51,8 @@ font-family: 'Source Sans Pro', sans-serif;
 
   /* padding: hamburger-menu + nav-main_list */
   --padding-hamburger-menu: 10px 5px;
+  --padding-hamburger-menu-icon: 10px;
+
+  /* transition */
+  --transition-medium: .3s;
 }

@@ -1,11 +1,61 @@
-@media (min-width: 420px) {
+@media (min-width: 430px) {
+  .logo .container {
+    flex-direction: row;
+  }
+
+  .logo h1 {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  .logo h1 span {
+    display: inline;
+  }
+
+  .hamburger-menu {
+    cursor: pointer;
+  }
+
+  .nav-main_list {
+    left: 5%;
+    width: 90%;
+    border-radius: var(--middle-radius);
+    box-shadow: var(--box-shadow-light-white);
+    padding: var(--padding-hamburger-menu-icon);
+  }
+
+  .show {
+    left: 5%;
+  }
+
+  .nav-main_list a {
+    font-size: 25px;
+    padding-left: 20px;
+    width: auto;
+    margin: 5px;
+    border-radius: var(--middle-radius);
+    transition: var(--transition-medium);
+    border: 1px solid transparent;
+  }
+
+  .nav-main_list a.active {
+    border: 1px solid;
+  }
+
+  .nav-main_list a:hover {
+    background-color: var(--color-no5);
+    color: var(--color-no3);
+    letter-spacing: 2px;
+    border: 1px solid;
+  }
+
   .about-me_wrapper {
-    grid-template-columns: 50% auto;
+    grid-template-columns: 30% auto;
     grid-template-rows: 1fr;
   }
 
   .about-me_wrapper .img-wrapper {
-    max-height: 70%;
+    max-height: 60%;
   }
 
   .my-projects_cards {
@@ -14,8 +64,10 @@
 }
 
 @media (min-width: 600px) {
-  .about-me_wrapper {
-    grid-template-columns: 40% auto;
+
+  .logo p,
+  .logo h1 {
+    font-size: 22px;
   }
 
   .about-me_wrapper .img-wrapper {
@@ -30,22 +82,65 @@
   }
 
   .card {
-    grid-template-rows: 80px 250px minmax(auto, 180px) repeat(2, auto) 80px;
+    grid-template-rows: 60px 130px minmax(auto, 100px) repeat(2, auto) 80px;
+    row-gap: 10px;
+    transition: var(--transition-medium);
+  }
+
+  .card:hover {
+    box-shadow: var(--box-shadow-light);
+    transform: scale(.95);
+    background-color: var(--color-no5);
+    cursor: pointer;
+  }
+
+  .btn-card {
+    transition: var(--transition-medium);
+  }
+
+  .btn-card:hover {
+    background-color: var(--color-no1);
+    border: 2px solid var(--color-no1);
+    color: var(--color-no7);
   }
 
   .card p {
     overflow: hidden;
-    padding-bottom: 100px;
+    font-size: 18px;
   }
 
-  .card p,
-  .card a {
+  .card a,
+  p {
     font-size: 20px;
+  }
+
+  .card a {
+    transition: var(--transition-medium);
+  }
+
+  .card a:hover {
+    color: var(--color-no7);
+  }
+
+  .card a::after {
+    display: block;
+    width: 20%;
+    transition: var(--transition-medium);
+  }
+
+  .card a:hover::after {
+    width: 70%;
   }
 }
 
-@media (min-width: 1200px) {
-  p {
-    font-size: 28px;
+@media(min-width: 900px) {
+  .nav-main_list {
+    width: 70%;
+    left: 15%;
+    top: 50px;
+  }
+
+  .show {
+    left: 15%;
   }
 }

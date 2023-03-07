@@ -13,10 +13,12 @@
   gap: 5px;
 }
 
-.logo p,
-.logo h1 {
-  font-size: calc(var(--normal-font-size) + 3vw);
+.logo p {
   text-shadow: var(--text-shadow-light);
+}
+
+.logo h1 {
+  font-size: calc(var(--normal-font-size) + 1vw);
 }
 
 .logo h1 {
