@@ -1,11 +1,13 @@
 .about-me .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto;
   gap: 10px;
+  padding: 30px 5px;
 }
 
 .about-me h2 {
   font-size: calc(var(--medium-font-size) + .7vw);
+  place-self: center;
 }
 
 .about-me_wrapper {
@@ -15,9 +17,6 @@
 }
 
 .about-me_wrapper .img-wrapper {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
-
-/* .about-me_wrapper p {
-  font-size: calc(var(--normal-font-size) + 1vw);
-} */
