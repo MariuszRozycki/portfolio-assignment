@@ -30,6 +30,7 @@
 }
 
 .nav-main_list {
+  width: 100%;
   position: absolute;
   opacity: 0;
   background-color: var(--color-no9);
