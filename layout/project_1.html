@@ -8,7 +8,7 @@
   <meta name="description"
     content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced, Project 1">
   <link rel="stylesheet" href="../style/style.css">
-  <title>Portfolio Website - Mariusz Rozycki</title>
+  <title>Portfolio Website - Mariusz Rozycki || Trip Blog</title>
 </head>
 
 <body>
@@ -32,8 +32,8 @@
       <ul class="nav-main_list">
         <li><a href="../index.html">Home</a></li>
         <li><a href="../layout/cv.html">Curriculum Vitae</a></li>
-        <li><a href="project-1.html" class="active">Project - Trip Blog</a></li>
-        <li><a href="">Project - Museum</a></li>
+        <li><a href="project_1.html" class="active">Project - Trip Blog</a></li>
+        <li><a href="project_2.html">Project - Museum</a></li>
         <li><a href="">Project - Rainy Days</a></li>
         <li><a href="">Contact me</a></li>
       </ul>
@@ -43,12 +43,13 @@
     <div class="container">
       <h1>Project <span>Trip Blog</span></h1>
       <div class="simple-project_wrapper" onclick="location.href='#'">
-        <h2>Trip Blog <span>Description</span></h2>
+        <button class="btn btn-previous" onclick="history.back()">&lt;&lt; Previous</button>
+        <h2>Description</h2>
         <div class="simple-project_img-wrapper">
           <img src="../images/trip-blog_wide-screen.jpg" alt="Trip Blog print screen">
         </div>
 
-        <p class="description-tech">
+        <p class="description-general">
           This project is made as a semester first exam.
           The content for website is stored on a WordPress installation used as a Headless CMS. Trip Blog is using
           WordPress to provide an API and add content for the blog.
@@ -107,15 +108,21 @@
           <li>- the colors have good contrast, the text is easy to read and the site is easy for user's to
             navigate</li>
         </ul>
-        <a class="simple-project_github-link" title="Link to Trip Blog GitHub"
+        <a class="simple-project_github-link link" title="Link to Trip Blog GitHub"
           href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki" target="_blank">
           Link to GitHub<span>&gt;&gt;&gt;</span>
         </a>
-        <a class="simple-project_live-link" title="Trip Blog Portfolio Mariusz Rozycki live site"
+        <a class="simple-project_live-link link" title="Trip Blog Portfolio Mariusz Rozycki live site"
           href="https://dynamic-twilight-02d190.netlify.app" target="_blank">
           Link to Live Site<span>&gt;&gt;&gt;</span>
         </a>
-        <button class="btn btn_simple-project" onclick="location.href='../index.html'">Go to main</button>
+        <a class="simple-project_adobeXD-link link" title="Link to Trip Blog AdobeXD prototypes"
+          href="https://xd.adobe.com/view/9c2b8924-c967-4e13-9cfc-94a14faa8591-c978" target="_blank">
+          Link to Prototypes<span>&gt;&gt;&gt;</span>
+        </a>
+        <button class="btn btn_simple-project" onclick="window.open('https://dynamic-twilight-02d190.netlify.app')"
+          title="Trip Blog Live Site">Live
+          site</button>
       </div>
     </div>
   </section>

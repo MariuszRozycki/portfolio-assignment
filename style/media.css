@@ -60,7 +60,7 @@
   /* simple-project */
   .simple-project_wrapper {
     grid-template-columns: 35% 55%;
-    grid-template-rows: 80px minmax(auto, 300px) repeat(4, auto) 80px;
+    grid-template-rows: 80px 80px repeat(6, auto) 80px;
     row-gap: 20px;
   }
 
@@ -72,16 +72,24 @@
     grid-column: 1/2;
   }
 
-  .description-tech {
+  .description-general {
     grid-column: 2/3;
+  }
+
+  .btn-previous {
+    place-self: start;
   }
 
   .description-details,
   .description-summary,
-  .simple-project_github-link,
-  .simple-project_live-link,
+  .link,
   .btn_simple-project {
     grid-column: 1/3;
+  }
+
+  .simple-project a::after {
+    display: block;
+    width: 50%;
   }
 }
 
@@ -117,11 +125,11 @@
     cursor: pointer;
   }
 
-  .btn-card {
+  .btn {
     transition: var(--transition-medium);
   }
 
-  .btn-card:hover {
+  .btn:hover {
     background-color: var(--color-no1);
     border: 2px solid var(--color-no1);
     color: var(--color-no7);
@@ -140,18 +148,25 @@
     font-size: 20px;
   }
 
+  .simple-project a,
   .card a {
     transition: var(--transition-medium);
   }
 
+  .simple-project a:hover,
   .card a:hover {
     color: var(--color-no7);
   }
 
+  .simple-project a::after,
   .card a::after {
     display: block;
     width: 20%;
     transition: var(--transition-medium);
+  }
+
+  .simple-project a:hover::after {
+    width: 40%;
   }
 
   .card a:hover::after {
