@@ -71,7 +71,8 @@ a {
 }
 
 a,
-p {
+p,
+li {
   font-size: calc(var(--normal-font-size) + 1vw);
   line-height: 130%;
   font-family: 'Source Sans Pro', sans-serif;

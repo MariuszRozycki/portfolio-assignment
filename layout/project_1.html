@@ -47,49 +47,66 @@
         <div class="simple-project_img-wrapper">
           <img src="../images/trip-blog_wide-screen.jpg" alt="Trip Blog print screen">
         </div>
+
         <p class="description-tech">
           This project is made as a semester first exam.
           The content for website is stored on a WordPress installation used as a Headless CMS. Trip Blog is using
           WordPress to provide an API and add content for the blog.
           To build this blog I used pure Java Script, HTML, CSS and I
-          made a call to the WordPress REST API to fetch the data.</p>
+          made a call to the WordPress REST API to fetch the data.
+        </p>
 
-        <p class="description-details">
-          Project contains following pages:
+        <ul class="description-details">
+          <li>
+            Project contains following pages:
+          </li>
 
-          <span class="simple-project_heading">1. Home page -</span>
-          <span>section with slider where user can see twelve lasts posts and click arrow to view more posts. Moving the
+          <li class="simple-project_heading">1. Home page -</li>
+          <li>section with slider where user can see twelve lasts posts and click arrow to view more posts. Moving the
             slider is limited by the first or last post. Slider is implemented for mobile and desktop layout. Displaying
-            and limitation is made by using both: Java Script and CSS - grid. </span>
+            and limitation is made by using both: Java Script and CSS - grid. </li>
 
-          <span class="simple-project_heading">2. About -</span>
-          <span>here is added picture and "Lorem ipsum" text to fill up space.
+          <li class="simple-project_heading">2. About -</li>
+          <li>here is added picture and "Lorem ipsum" text to fill up space.
             I used CSS - grid to share space between picture and text and of course to make a website
-            responsive.</span>
+            responsive.</li>
 
-          <span class="simple-project_heading">3. List of blog posts -</span>
-          <span>blog Page shows first 10 blogs. Under first 10 blogs finds "Show more" button to show rest of blog
+          <li class="simple-project_heading">3. List of blog posts -</li>
+          <li>blog Page shows first 10 blogs. Under first 10 blogs finds "Show more" button to show rest of blog
             posts.
             When "Show more" button is clicked, button changes innerText to "Show less". After clicking "Show less"
             user can
-            see again first 10 blogs.</span>
+            see again first 10 blogs.</li>
 
-          <span class="simple-project_heading">4. Blog post specific pages -</span>
-          <span>the content of the blog specific page is dynamically build using a query string parameter based on
+          <li class="simple-project_heading">4. Blog post specific pages -</li>
+          <li>the content of the blog specific page is dynamically build using a query string parameter based on
             whatever
             link the user clicked. The title of the blog specific is changed based on the blog that has been
             clicked.
             If any image on the blog post page is clicked, a modal appears that giving the user a bigger view of
             that
-            image. Clicking outside image closes the modal.</span>
+            image. Clicking outside image closes the modal.</li>
 
-          <span class="simple-project_heading">5. Contact page -</span>
-          <span>contact page contains four text boxes:
-            1. name (is more than 5 characters long),
-            2. email address (is a valid email address),
-            3. subject (is more than 15 characters long),
-            4. message content (is more than 25 characters long)</span>
-        </p>
+          <li class="simple-project_heading">5. Contact page -</li>
+          <li>contact page contains four text boxes:</li>
+          <li>1. name (is more than 5 characters long),</li>
+          <li>2. email address (is a valid email address),</li>
+          <li>3. subject (is more than 15 characters long),</li>
+          <li>4. message content (is more than 25 characters long).</li>
+        </ul>
+
+        <ul class="description-summary">
+          <li class="simple-project_heading">Summary:</li>
+          <li>- website is mobile responsive and looks good on all screen sizes</li>
+          <li>- the HTML is neat and semantic, the CSS is concise and styles aren't duplicated in media queries</li>
+          <li>- each page has a unique title, one unique h1, and meta description</li>
+          <li>- images are below 200kb and have alt text</li>
+          <li>- the site looks good and there's a class in the navigation telling the user which page they're
+            on</li>
+          <li>- text lines are kept short</li>
+          <li>- the colours have good contrast, the text is easy to read and the site is easy for user's to
+            navigate</li>
+        </ul>
         <a class="simple-project_github-link" title="Link to Trip Blog GitHub"
           href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki" target="_blank">
           Link to GitHub<span>&gt;&gt;&gt;</span>
@@ -98,7 +115,7 @@
           href="https://dynamic-twilight-02d190.netlify.app" target="_blank">
           Link to Live Site<span>&gt;&gt;&gt;</span>
         </a>
-        <button class="btn btn_simple-project" onclick="location.href='#'">Read more</button>
+        <button class="btn btn_simple-project" onclick="location.href='../index.html'">Go to main</button>
       </div>
     </div>
   </section>

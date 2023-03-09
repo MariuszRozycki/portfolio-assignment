@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 90%;
   justify-content: center;
-  grid-template-rows: 80px 220px repeat(4, auto) 80px;
+  grid-template-rows: 80px 220px repeat(5, auto) 80px;
   row-gap: 17px;
   border-radius: var(--middle-radius);
 }
@@ -19,8 +19,8 @@
   align-self: center;
 }
 
-.simple-project p span {
-  display: block;
+.simple-project p,
+.simple-project ul {
   padding-bottom: 25px;
 }
 
@@ -32,7 +32,8 @@
   margin-left: 10px;
 }
 
-.simple-project p .simple-project_heading {
+.simple-project_heading {
+  display: block;
   font-weight: 600;
-  padding-bottom: 5px;
+  padding: 15px 0 5px;
 }
