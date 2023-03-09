@@ -15,8 +15,7 @@ hamburgerMenu.addEventListener("click", () => {
 
   document.addEventListener("click", function (event) {
     if (
-      event.target.matches(".modal") ||
-      event.target.matches(".nav-main .container")
+      event.target.matches(".modal")
     ) {
       closeModal()
     }

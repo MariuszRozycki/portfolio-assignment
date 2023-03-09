@@ -1,0 +1,38 @@
+.simple-project .container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  padding: 30px 5px;
+}
+
+.simple-project_wrapper {
+  background-color: var(--color-no8);
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  grid-template-rows: 80px 220px repeat(4, auto) 80px;
+  row-gap: 17px;
+  border-radius: var(--middle-radius);
+}
+
+.simple-project_wrapper h2 {
+  align-self: center;
+}
+
+.simple-project p span {
+  display: block;
+  padding-bottom: 25px;
+}
+
+.simple-project a {
+  color: var(--color-no3);
+}
+
+.simple-project a span {
+  margin-left: 10px;
+}
+
+.simple-project p .simple-project_heading {
+  font-weight: 600;
+  padding-bottom: 5px;
+}

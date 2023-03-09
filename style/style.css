@@ -8,4 +8,7 @@
 @import url('main.css');
 @import url('footer.css');
 
+@import url('project_1.css');
+
+/* media queries */
 @import url('media.css');

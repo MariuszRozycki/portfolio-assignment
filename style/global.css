@@ -41,6 +41,7 @@ h4 {
 
 h1 {
   font-size: var(--medium-font-size);
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -89,7 +90,8 @@ img {
 
 .nav-main,
 .about-me,
-.my-projects {
+.my-projects,
+.simple-project {
   background-color: rgba(0, 0, 0, .6);
   margin-top: 10px;
 }

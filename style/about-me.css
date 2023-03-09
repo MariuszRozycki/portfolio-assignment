@@ -8,7 +8,6 @@
 .about-me h1 {
   font-size: calc(var(--medium-font-size) + .6vw);
   place-self: center;
-  padding-bottom: 30px;
 }
 
 .about-me_wrapper {

@@ -37,7 +37,7 @@
   top: 80px;
   left: 0;
   transition: var(--transition-medium);
-  transform: translateY(-100vh);
+  transform: translateY(-1000vh);
 }
 
 .show {
@@ -79,7 +79,6 @@
 .nav-main_list a.active {
   background-color: var(--color-no5);
   color: var(--color-no3);
-  letter-spacing: 2px;
   border-top: 1px solid;
   border-bottom: 1px solid;
 }

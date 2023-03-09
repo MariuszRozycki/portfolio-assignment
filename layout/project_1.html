@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced, Project 1">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Portfolio Website - Mariusz Rozycki</title>
+</head>
+
+<body>
+  <header class="logo">
+    <div class="container">
+      <a href="../index.html">
+        <p>Portfolio</p>
+      </a>
+      <a href="../index.html">
+        <p>Front-End Developer <span>Mariusz Rozycki</span></p>
+      </a>
+    </div>
+  </header>
+  <nav class="nav-main">
+    <div class="container">
+      <div id="hamburger-menu" class="hamburger-menu">
+        <span id="bar-one" class="bars"></span>
+        <span id="bar-two" class="bars"></span>
+        <span id="bar-three" class="bars"></span>
+      </div>
+      <ul class="nav-main_list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../layout/cv.html">Curriculum Vitae</a></li>
+        <li><a href="project-1.html" class="active">Project - Trip Blog</a></li>
+        <li><a href="">Project - Museum</a></li>
+        <li><a href="">Project - Rainy Days</a></li>
+        <li><a href="">Contact me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="simple-project">
+    <div class="container">
+      <h1>Project</h1>
+      <div class="simple-project_wrapper" onclick="location.href='#'">
+        <h2>Trip Blog</h2>
+        <div class="simple-project_img-wrapper">
+          <img src="../images/trip-blog_wide-screen.jpg" alt="Trip Blog print screen">
+        </div>
+        <p class="description-tech">
+          This project is made as a semester first exam.
+          The content for website is stored on a WordPress installation used as a Headless CMS. Trip Blog is using
+          WordPress to provide an API and add content for the blog.
+          To build this blog I used pure Java Script, HTML, CSS and I
+          made a call to the WordPress REST API to fetch the data.</p>
+
+        <p class="description-details">
+          Project contains following pages:
+
+          <span class="simple-project_heading">1. Home page -</span>
+          <span>section with slider where user can see twelve lasts posts and click arrow to view more posts. Moving the
+            slider is limited by the first or last post. Slider is implemented for mobile and desktop layout. Displaying
+            and limitation is made by using both: Java Script and CSS - grid. </span>
+
+          <span class="simple-project_heading">2. About -</span>
+          <span>here is added picture and "Lorem ipsum" text to fill up space.
+            I used CSS - grid to share space between picture and text and of course to make a website
+            responsive.</span>
+
+          <span class="simple-project_heading">3. List of blog posts -</span>
+          <span>blog Page shows first 10 blogs. Under first 10 blogs finds "Show more" button to show rest of blog
+            posts.
+            When "Show more" button is clicked, button changes innerText to "Show less". After clicking "Show less"
+            user can
+            see again first 10 blogs.</span>
+
+          <span class="simple-project_heading">4. Blog post specific pages -</span>
+          <span>the content of the blog specific page is dynamically build using a query string parameter based on
+            whatever
+            link the user clicked. The title of the blog specific is changed based on the blog that has been
+            clicked.
+            If any image on the blog post page is clicked, a modal appears that giving the user a bigger view of
+            that
+            image. Clicking outside image closes the modal.</span>
+
+          <span class="simple-project_heading">5. Contact page -</span>
+          <span>contact page contains four text boxes:
+            1. name (is more than 5 characters long),
+            2. email address (is a valid email address),
+            3. subject (is more than 15 characters long),
+            4. message content (is more than 25 characters long)</span>
+        </p>
+        <a class="simple-project_github-link" title="Link to Trip Blog GitHub"
+          href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki" target="_blank">
+          Link to GitHub<span>&gt;&gt;&gt;</span>
+        </a>
+        <a class="simple-project_live-link" title="Trip Blog Portfolio Mariusz Rozycki live site"
+          href="https://dynamic-twilight-02d190.netlify.app" target="_blank">
+          Link to Live Site<span>&gt;&gt;&gt;</span>
+        </a>
+        <button class="btn btn_simple-project" onclick="location.href='#'">Read more</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <ul class="nav-footer">
+        <li><a href="tel:+4793928270">Mariusz Rozycki</a></li>
+        <li><a href="mailto:marius.front@gmail.com">e-mail: marius.front@gmail.com</a></li>
+        <li><a href="tel:+4793928270">phone: +47 939 28 270</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="modal"></div>
+
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
