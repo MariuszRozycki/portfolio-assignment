@@ -3,12 +3,7 @@
     flex-direction: row;
   }
 
-  .logo h1 {
-    font-size: 16px;
-    text-transform: capitalize;
-  }
-
-  .logo h1 span {
+  .logo p span {
     display: inline;
   }
 
@@ -54,10 +49,6 @@
     grid-template-rows: 1fr;
   }
 
-  .about-me_wrapper .img-wrapper {
-    max-height: 60%;
-  }
-
   .my-projects_cards {
     grid-template-columns: 420px;
   }
@@ -65,13 +56,13 @@
 
 @media (min-width: 600px) {
 
-  .logo p,
-  .logo h1 {
+  .logo p {
     font-size: 22px;
   }
 
-  .about-me_wrapper .img-wrapper {
-    max-height: 300px;
+  .about-me_wrapper {
+    grid-template-columns: 25% auto;
+    grid-template-rows: 1fr;
   }
 }
 
@@ -89,7 +80,7 @@
 
   .card:hover {
     box-shadow: var(--box-shadow-light);
-    transform: scale(.95);
+    transform: scale(1.02);
     background-color: var(--color-no5);
     cursor: pointer;
   }

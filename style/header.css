@@ -15,12 +15,5 @@
 
 .logo p {
   text-shadow: var(--text-shadow-light);
-}
-
-.logo h1 {
-  font-size: calc(var(--normal-font-size) + 1vw);
-}
-
-.logo h1 {
   text-align: center;
 }

@@ -60,7 +60,7 @@ h4 {
 }
 
 h1 span,
-h2 span {
+p span {
   display: block;
 }
 
@@ -107,6 +107,7 @@ img {
   border: 2px solid var(--color-no3);
   border-radius: var(--middle-radius);
   box-shadow: var(--box-shadow-light);
+  cursor: pointer;
 }
 
 .modal-on {

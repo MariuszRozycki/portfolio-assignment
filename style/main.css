@@ -24,7 +24,7 @@
   border-radius: var(--middle-radius);
 }
 
-.card h4 {
+.card h3 {
   align-self: center;
   text-shadow: var(--text-shadow-dark);
 }

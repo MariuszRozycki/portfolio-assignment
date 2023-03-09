@@ -5,8 +5,8 @@
   padding: 30px 5px;
 }
 
-.about-me h2 {
-  font-size: calc(var(--medium-font-size) + .7vw);
+.about-me h1 {
+  font-size: calc(var(--medium-font-size) + .6vw);
   place-self: center;
   padding-bottom: 30px;
 }

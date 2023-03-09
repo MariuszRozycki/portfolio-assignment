@@ -6,19 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced">
+    content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced, Main Website">
   <link rel="stylesheet" href="style/style.css">
   <title>Portfolio Website - Mariusz Rozycki</title>
 </head>
 
 <body>
-  <header>
-    <section class="logo">
-      <div class="container">
+  <header class="logo">
+    <div class="container">
+      <a href="index.html">
         <p>Portfolio</p>
-        <h1>Front-End Developer <span>Mariusz Rozycki</span></h1>
-      </div>
-    </section>
+      </a>
+      <a href="index.html">
+        <p>Front-End Developer <span>Mariusz Rozycki</span></p>
+      </a>
+    </div>
   </header>
   <nav class="nav-main">
     <div class="container">
@@ -28,8 +30,8 @@
         <span id="bar-three" class="bars"></span>
       </div>
       <ul class="nav-main_list">
-        <li><a href="" class="active">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="layout/cv.html">Curriculum Vitae</a></li>
         <li><a href="">Project - Trip Blog</a></li>
         <li><a href="">Project - Museum</a></li>
         <li><a href="">Project - Rainy Days</a></li>
@@ -39,7 +41,7 @@
   </nav>
   <section class="about-me">
     <div class="container">
-      <h2>Front-End Developer <span>Mariusz Rozycki</span></h2>
+      <h1>Front-End Developer <span>Mariusz Rozycki</span></h1>
       <div class="about-me_wrapper">
         <div class="img-wrapper">
           <img src="images/mariusCv.png" alt="Picture of Mariusz Rozycki">
@@ -53,43 +55,54 @@
   <main>
     <section class="my-projects">
       <div class="container">
-        <h3>Check my projects</h3>
+        <h2>Check my projects</h2>
         <div class="my-projects_cards">
-          <div class="card">
-            <h4>Trip Blog</h4>
+          <div onclick="location.href='#'" class="card">
+            <h3>Trip Blog</h3>
             <div class="my-projects_img-wrapper">
               <img src="images/trip-blog_wide-screen.jpg" alt="Trip Blog print screen">
             </div>
             <p>This is project made by me as a semester 1 exam.
               To get more information click this card or button below.</p>
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki">Link to
-              GitHub<span>&gt;&gt;&gt;</span></a>
-            <a href="https://dynamic-twilight-02d190.netlify.app/">Link to Live Site<span>&gt;&gt;&gt;</span></a>
-            <button class="btn btn-card">Read more</button>
+            <a title="Link to Trip Blog GitHub"
+              href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki" target="_blank">
+              Link to GitHub<span>&gt;&gt;&gt;</span>
+            </a>
+            <a title="Trip Blog Portfolio Mariusz Rozycki live site" href="https://dynamic-twilight-02d190.netlify.app"
+              target="_blank">
+              Link to Live Site<span>&gt;&gt;&gt;</span>
+            </a>
+            <button onclick="location.href='#'" class="btn btn-card">Read more</button>
           </div>
-          <div class="card">
-            <h4>Museum</h4>
+          <div onclick="location.href='#'" class="card">
+            <h3>Museum</h3>
             <div class="my-projects_img-wrapper">
               <img src="images/museum_wide-screen.jpg" alt="Museum of Science print screen">
             </div>
-            <p>TThis is project made by me as a semester 1 exam.
+            <p>This is project made by me as a semester 2.
               To get more information click this card or button below.</p>
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki">Link to
+            <a title="Museum of Science Portfolio Mariusz Rozycki link to GitHub"
+              href="https://github.com/MariuszRozycki/museum-of-science" target="_blank">Link to
               GitHub<span>&gt;&gt;&gt;</span></a>
-            <a href="https://dynamic-twilight-02d190.netlify.app/">Link to Live Site<span>&gt;&gt;&gt;</span></a>
-            <button class="btn btn-card">Read more</button>
+            <a title="Museum of Science Portfolio Mariusz Rozycki live site"
+              href="https://wizardly-hugle-cb8551.netlify.app" target="_blank">Link to Live
+              Site<span>&gt;&gt;&gt;</span></a>
+            <button onclick="location.href='#'" class="btn btn-card">Read more</button>
           </div>
-          <div class="card">
-            <h4>Rainy Days</h4>
+          <div onclick="location.href='#'" class="card">
+            <h3>Rainy Days</h3>
             <div class="my-projects_img-wrapper">
               <img src="images/rainy-days_wide_screen.jpg" alt="Rainy Days print screen">
             </div>
-            <p>This is project made by me as a semester 1 exam.
+            <p>This is cross-curse project made by me.
               To get more information click this card or button below.</p>
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki">Link to
+            <a title="Rainy Days cross-curse project portfolio Mariusz Rozycki link to GitHub"
+              href="https://github.com/MariuszRozycki/rainy-days" target="_blank">Link to
               GitHub<span>&gt;&gt;&gt;</span></a>
-            <a href="https://dynamic-twilight-02d190.netlify.app/">Link to Live Site<span>&gt;&gt;&gt;</span></a>
-            <button class="btn btn-card">Read more</button>
+            <a title="Rainy Days cross-curse project portfolio Mariusz Rozycki live site"
+              href="https://eloquent-kirch-5ccaf7.netlify.app" target="_blank">Link to Live
+              Site<span>&gt;&gt;&gt;</span></a>
+            <button onclick="location.href='#'" class="btn btn-card">Read more</button>
           </div>
         </div>
       </div>
