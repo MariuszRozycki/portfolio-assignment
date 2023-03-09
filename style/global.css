@@ -61,6 +61,7 @@ h4 {
 }
 
 h1 span,
+h2 span,
 p span {
   display: block;
 }
