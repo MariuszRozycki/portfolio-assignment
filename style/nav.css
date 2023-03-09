@@ -33,15 +33,13 @@
   position: absolute;
   opacity: 0;
   background-color: var(--color-no9);
-  width: 100%;
-  top: 80px;
+  top: -200vh;
   left: 0;
   transition: var(--transition-medium);
-  transform: translateY(-1000vh);
 }
 
 .show {
-  transform: translateY(0vh);
+  top: 80px;
   opacity: 1;
 }
 

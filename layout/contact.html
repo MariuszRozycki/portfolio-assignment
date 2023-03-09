@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced, Curriculum Vitae">
+    content="Mariusz Rozycki, Front-End Developer, Portfolio Website, Norway, Poland, Europe, Scandinavia, Experienced, Project Rainy Days">
   <link rel="stylesheet" href="../style/style.css">
-  <title>Portfolio Website - Mariusz Rozycki || CV</title>
+  <title>Portfolio Website - Mariusz Rozycki || Rainy Days</title>
 </head>
 
 <body>
@@ -31,40 +31,45 @@
       </div>
       <ul class="nav-main_list">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="cv.html" class="active">Curriculum Vitae</a></li>
+        <li><a href="../layout/cv.html">Curriculum Vitae</a></li>
         <li><a href="project_1.html">Project - Trip Blog</a></li>
         <li><a href="project_2.html">Project - Museum</a></li>
         <li><a href="project_3.html">Project - Rainy Days</a></li>
-        <li><a href="contact.html">Contact me</a></li>
+        <li><a class="active" href="">Contact me</a></li>
       </ul>
     </div>
   </nav>
-  <section class="about-me">
-    <div class="container">
-      <h1>Mariusz Rozycki<span>Curriculum Vitae</span></h1>
-      <div class="about-me_wrapper">
-        <div class="img-wrapper">
-          <img src="../images/mariusCv.png" alt="Picture of Mariusz Rozycki">
-        </div>
-        <p class="description">I'm Mariusz Rozycki. As a front-end developer, I specialize in React.js, creating
-          scalable and modular front-end architectures. I focus on creating very well looking websites, writing clear
-          and understandable code. I still improve myself by deep studying of front-end development.</p>
-      </div>
-    </div>
-  </section>
-  <main>
-    <section class="my-projects">
-      <div class="container">
-        <h2>Page under construction</h2>
-        <div class="loader"></div>
-        <button class="btn btn-home" onclick="location.href='../index.html'">&lt;&lt; Home &gt;&gt;</button>
-      </div>
-    </section>
-  </main>
+  <div class="container form-container">
+    <h1>Contact me!</h1>
+    <div id="message"></div>
+    <form id="form">
+      <label for="name">Name (minimum 6 characters):
+        <input id="name" name="name">
+      </label>
+      <p class="form-error" id="name-error">Field must have minimum 6 characters!</p>
+
+      <label for="subject">Subject (minimum 16 characters):
+        <input id="subject" name="Subject">
+      </label>
+      <p class="form-error" id="subject-error">Field must have minimum 16 characters!</p>
+
+      <label for="email">Email:
+        <input id="email" name="email">
+      </label>
+      <p class="form-error" id="email-error">Write correct e-mail address</p>
+
+      <label for="user-message">Message (minimum 26 characters):
+        <textarea id="user-message" name="user-message"></textarea>
+      </label>
+      <p class="form-error" id="user-message--error">Field must have minimum 26 characters!</p>
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
   <footer class="footer">
     <div class="container">
       <ul class="nav-footer">
-        <li>Mariusz Rozycki</li>
+        <li><a href="tel:+4793928270">Mariusz Rozycki</a></li>
         <li><a href="mailto:marius.front@gmail.com">e-mail: marius.front@gmail.com</a></li>
         <li><a href="tel:+4793928270">phone: +47 939 28 270</a></li>
       </ul>
@@ -73,6 +78,7 @@
   <div class="modal"></div>
 
   <script src="../js/index.js"></script>
+  <script src="../js/contact.js"></script>
 </body>
 
 </html>
