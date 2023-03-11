@@ -41,28 +41,28 @@
   </nav>
   <div class="container form-container">
     <h1>Contact me!</h1>
-    <div id="message"></div>
-    <form id="form">
-      <label for="name">Name (minimum 6 characters):
-        <input id="name" name="name">
+    <form id="form" action="https://mariuszrozycki.info/portfolio/wp-json/contact-form-7/v1/contact-forms/5/feedback"
+      method="post">
+      <label for="user-name">Your name (minimum 2 characters!)
+        <input id="user-name" type="text" name="user-name">
       </label>
-      <p class="form-error" id="name-error">Field must have minimum 6 characters!</p>
+      <p class="form-error" id="name-error">Field must have minimum 2 characters!</p>
 
-      <label for="subject">Subject (minimum 16 characters):
-        <input id="subject" name="Subject">
-      </label>
-      <p class="form-error" id="subject-error">Field must have minimum 16 characters!</p>
-
-      <label for="email">Email:
-        <input id="email" name="email">
+      <label for="your-email">Your email
+        <input id="your-email" type="email" name="your-email">
       </label>
       <p class="form-error" id="email-error">Write correct e-mail address</p>
 
-      <label for="user-message">Message (minimum 26 characters):
-        <textarea id="user-message" name="user-message"></textarea>
+      <label for="your-subject">Subject (minimum 2 characters!)
+        <input id="your-subject" type="text" name="your-subject">
       </label>
-      <p class="form-error" id="user-message--error">Field must have minimum 26 characters!</p>
+      <p class="form-error" id="subject-error">Field must have minimum 2 characters!</p>
 
+      <label for="your-message">Your message (minimum 2 characters!)
+        <textarea id="your-message" type="textarea" name="your-message"></textarea>
+      </label>
+      <p class="form-error" id="user-message--error">Field must have minimum 2 characters!</p>
+      <div id="message"></div>
       <button class="btn" type="submit">Submit</button>
     </form>
   </div>
@@ -79,6 +79,7 @@
 
   <script src="../js/index.js"></script>
   <script src="../js/contact.js"></script>
+
 </body>
 
 </html>

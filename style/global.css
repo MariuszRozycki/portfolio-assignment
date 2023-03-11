@@ -93,7 +93,8 @@ img {
 .nav-main,
 .about-me,
 .my-projects,
-.simple-project {
+.simple-project,
+.form-container {
   background-color: rgba(0, 0, 0, .6);
   margin-top: 10px;
 }

@@ -47,7 +47,3 @@
   content: "";
   background-color: var(--color-no3);
 }
-
-.simple-project_wrapper.project_3 {
-  grid-template-rows: 80px 80px 220px repeat(5, auto) 80px;
-}
