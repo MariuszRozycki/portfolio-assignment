@@ -77,7 +77,8 @@
   }
 
   .btn-home {
-    place-self: start;
+    margin: 0;
+    place-self: center start;
   }
 
   .description-details,

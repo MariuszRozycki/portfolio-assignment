@@ -47,3 +47,7 @@
   content: "";
   background-color: var(--color-no3);
 }
+
+.btn-home {
+  max-width: 165px;
+}
