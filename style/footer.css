@@ -5,14 +5,39 @@
   top: 100%;
 }
 
+.footer .container {
+  padding: 30px 5px;
+}
+
 .nav-footer {
-  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
 
 .footer li,
 .footer li a {
+  width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   color: var(--color-no7);
-  font-size: calc(var(--normal-font-size) + 2px);
-  ;
+}
+
+.footer li a i,
+.footer li a p {
+  font-size: calc(var(--normal-font-size) + 0.5vw);
+}
+
+.nav-footer li a {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+i.f-awesome {
+  padding-right: 20px;
 }

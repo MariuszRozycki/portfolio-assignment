@@ -3,7 +3,6 @@
   padding: 30px 5px;
 }
 
-
 form,
 textarea {
   font-size: calc(var(--normal-font-size) + 0.5vw);
@@ -62,6 +61,7 @@ select:focus {
   margin: 2px 0 20px;
   color: var(--color-no3);
   font-weight: 600;
+  text-align: center;
 }
 
 .success {

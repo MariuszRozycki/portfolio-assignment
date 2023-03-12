@@ -49,5 +49,14 @@
 }
 
 .btn-home {
-  max-width: 165px;
+  max-width: 185px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-home span {
+  font-size: 30px;
+  display: inline-block;
 }
