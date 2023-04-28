@@ -150,6 +150,14 @@ img {
   border-radius: 50%;
 }
 
+.simple-project_live-link span {
+  display: inline-block;
+}
+
+.description-general .simple-project_live-link::after {
+  display: none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
