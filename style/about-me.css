@@ -14,9 +14,29 @@
   display: grid;
   grid-template-rows: 300px 1fr;
   gap: 10px;
+  row-gap: 20px;
 }
 
 .about-me_wrapper .img-wrapper {
   width: 95%;
   margin: 0 auto;
+}
+
+ul.description li:nth-child(1) {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+ul.description li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.debugging {
+  margin-left: 20px;
+}
+
+ul.debugging li:nth-child(1) {
+  font-weight: normal;
+  margin-bottom: 10px;
 }
